@@ -1,0 +1,24 @@
+卸载搜狗拼音
+http://jingyan.baidu.com/article/9faa723154c3dc473d28cb41.html
+
+
+输入中文显示[Invalid UTF-8] ？
+这个你设置输入法的半角全角。这个是ibus输入法的一个bug，你把输入法改为半角，然后重新启动系统。
+
+截图
+1.ubuntu中自带到“截图”
+2.PrtSc键
+3.shutter键（功能强大，和qq截图一样强大）
+
+文件夹权限问题：好多错误都是因为文件夹权限到问题导致的，应该学会看日志
+chmod -R 777 xxx
+
+apache 启动？
+
+系统不支持curl？
+sudo apt-get install curl libcurl3 libcurl3-dev php5-curl
+
+
+
+
+
