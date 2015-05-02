@@ -1,1 +1,1 @@
-a:3:{i:0;a:1:{s:7:"dirname";s:6:"6rooms";}i:1;a:1:{s:7:"dirname";s:3:"hsl";}i:2;a:1:{s:7:"dirname";s:14:"works_category";}}
+a:8:{i:0;a:1:{s:7:"dirname";s:6:"6rooms";}i:1;a:1:{s:7:"dirname";s:9:"base_info";}i:2;a:1:{s:7:"dirname";s:10:"experience";}i:3;a:1:{s:7:"dirname";s:3:"hsl";}i:4;a:1:{s:7:"dirname";s:7:"project";}i:5;a:1:{s:7:"dirname";s:6:"resume";}i:6;a:1:{s:7:"dirname";s:9:"technical";}i:7;a:1:{s:7:"dirname";s:14:"works_category";}}
