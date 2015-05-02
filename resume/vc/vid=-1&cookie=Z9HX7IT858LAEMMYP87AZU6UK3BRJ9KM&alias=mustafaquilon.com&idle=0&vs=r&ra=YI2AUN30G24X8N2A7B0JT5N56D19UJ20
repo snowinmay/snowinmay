@@ -1,0 +1,8 @@
+try{
+if(woopraTracker.version && woopraTracker.version==10){}else{
+setTimeout(function(){woopraTracker.ping();},12 * 1000);
+}
+}catch(e){}
+woopraTracker.createcookie('wooMeta','ODM5NDcmMiY1JjU3NiYxMzM4NTQ5MzM2NzQ3JjEzMzg1NTAwMDQxOTgmaHR0cCUzQSUyRiUyRnRoZW1lZm9yZXN0Lm5ldCUyRml0ZW0lMkZyZXN1bWUtY3YtcGVyZmVjdG8lMkZmdWxsX3NjcmVlbl9wcmV2aWV3JTJGODIxMDAlM0ZyZWYlM0ROZXRQcmVtaXVtJTI2cmVmJTNETmV0UHJlbWl1bSUyNmNsaWNrdGhyb3VnaF9pZCUzRDU5NTcyNDY0JTI2cmVkaXJlY3RfYmFjayUzRHRydWUmMTAyJiYyJiYmJg==',730);
+//already accepted or rejected, should hide 
+if(typeof woopraChat == 'undefined'){}else{woopraChat.hide();}

@@ -22,6 +22,7 @@
     </div>
   <div class="wrapper">
     <div id="catalog">
+      <{$Name}>
     <{foreach from = $categories item = temp key= k}>
     <{if <{$temp.treeid}> == 1}>
     <section data-catalog="<{$temp.asname}>"><!--<{$temp.catname}>-->

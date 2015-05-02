@@ -18,7 +18,10 @@ apache 启动？
 系统不支持curl？
 sudo apt-get install curl libcurl3 libcurl3-dev php5-curl
 
+系统配置文件要用git忽略掉
 
+mac和ubuntu中php环境和apache环境的基本信息
 
-
-
+javascript获取smarty数据？
+$smarty -> assign('js_arr',json_encode($arr));
+var arr = <{$js_arr}>;

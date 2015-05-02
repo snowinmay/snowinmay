@@ -1,25 +1,22 @@
-<?php /* Smarty version Smarty-3.1.14, created on 2015-05-02 19:31:34
+<?php /* Smarty version Smarty-3.1.14, created on 2015-05-02 13:49:50
          compiled from "../tpl/templets/default/works.tpl" */ ?>
-<?php /*%%SmartyHeaderCode:6525224385540d11955c749-36006043%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
+<?php /*%%SmartyHeaderCode:20625323945544657eb583c2-87162891%%*/if(!defined('SMARTY_DIR')) exit('no direct access allowed');
 $_valid = $_smarty_tpl->decodeProperties(array (
   'file_dependency' => 
   array (
     '0cee113175636dad3481586ce240516756dad6da' => 
     array (
       0 => '../tpl/templets/default/works.tpl',
-      1 => 1430566268,
+      1 => 1430532829,
       2 => 'file',
     ),
   ),
-  'nocache_hash' => '6525224385540d11955c749-36006043',
+  'nocache_hash' => '20625323945544657eb583c2-87162891',
   'function' => 
   array (
   ),
-  'version' => 'Smarty-3.1.14',
-  'unifunc' => 'content_5540d1195efe19_61586920',
   'variables' => 
   array (
-    'Name' => 0,
     'categories' => 0,
     'temp' => 0,
     'works' => 0,
@@ -28,8 +25,10 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     'time_diff' => 0,
   ),
   'has_nocache_code' => false,
+  'version' => 'Smarty-3.1.14',
+  'unifunc' => 'content_5544657ec29ee7_34827676',
 ),false); /*/%%SmartyHeaderCode%%*/?>
-<?php if ($_valid && !is_callable('content_5540d1195efe19_61586920')) {function content_5540d1195efe19_61586920($_smarty_tpl) {?><!DOCTYPE html>
+<?php if ($_valid && !is_callable('content_5544657ec29ee7_34827676')) {function content_5544657ec29ee7_34827676($_smarty_tpl) {?><!DOCTYPE html>
 <html lang="zh">
 <head>
   <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
@@ -53,8 +52,6 @@ $_valid = $_smarty_tpl->decodeProperties(array (
     </div>
   <div class="wrapper">
     <div id="catalog">
-      <?php echo $_smarty_tpl->tpl_vars['Name']->value;?>
-
     <?php  $_smarty_tpl->tpl_vars['temp'] = new Smarty_Variable; $_smarty_tpl->tpl_vars['temp']->_loop = false;
  $_smarty_tpl->tpl_vars['k'] = new Smarty_Variable;
  $_from = $_smarty_tpl->tpl_vars['categories']->value; if (!is_array($_from) && !is_object($_from)) { settype($_from, 'array');}

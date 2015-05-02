@@ -1,0 +1,14 @@
+//Z9HX7IT858LAEMMYP87AZU6UK3BRJ9KM
+try{
+if(woopraTracker.version && woopraTracker.version==10){}else{
+setTimeout(function(){woopraTracker.ping();},12 * 1000);
+}
+}catch(e){}
+woopraTracker.createcookie('wooMeta','ODM5NDcmMiY1JjQwNCYxMzM4NTQ5MzM2NzQ3JjEzMzg1NDk4MzIwNjQmaHR0cCUzQSUyRiUyRnRoZW1lZm9yZXN0Lm5ldCUyRml0ZW0lMkZyZXN1bWUtY3YtcGVyZmVjdG8lMkZmdWxsX3NjcmVlbl9wcmV2aWV3JTJGODIxMDAlM0ZyZWYlM0ROZXRQcmVtaXVtJTI2cmVmJTNETmV0UHJlbWl1bSUyNmNsaWNrdGhyb3VnaF9pZCUzRDU5NTcyNDY0JTI2cmVkaXJlY3RfYmFjayUzRHRydWUmMTAyJiYyJiYmJg==',730);
+
+var __promotion_arr=[];
+if(__promotion_arr.length>0){if(typeof(_woopra_promotions) == 'undefined' ){
+var _woopra_promotions=1;
+new WoopraScript(document.location.protocol+'//static.woopra.com/js/woopra.promotions.js?r='+'xz', function(){new WoopraPromotions().load(__promotion_arr);}, true).load();
+}
+}

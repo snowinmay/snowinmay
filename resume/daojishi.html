@@ -1,0 +1,65 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>咔咔硕-新一代电子商务平台</title>
+<link rel="stylesheet" type="text/css" href="img/layout.css">
+</head>
+<body>
+<header>
+</header>
+<div class="content">
+    <p>咔咔硕网站正在后期整理中，敬请期待...</p>
+    <p>咔咔硕平台，全新的购物模式以及购物体验，真正将电子商务融入人们的生活场景，只有你没想到的、没有你买不到的。</p>
+    <p>致力于打造最好的电子商务平台及最佳的用户体验。</p>
+    <p class="tips">距咔咔硕上线还有：</p>
+    <div class="time" id="time1">
+        <span class="danwei_first"></span>
+        <span><img id="day_01" alt="" src="img/allnum.png"></span>
+        <span><img id="day_02" alt="" src="img/allnum.png"></span>
+        <span class="danwei"></span>
+        <span><img id="hour_01" alt="" src="img/allnum.png"></span>
+        <span><img id="hour_02" alt="" src="img/allnum.png"></span>
+        <span class="danwei"></span>
+        <span><img id="minute_01" alt="" src="img/allnum.png"></span>
+        <span><img id="minute_02" alt="" src="img/allnum.png"></span>
+        <span class="danwei"></span>
+        <span><img id="second_01" alt="" src="img/allnum.png"></span>
+        <span><img id="second_02" alt="" src="img/allnum.png"></span>
+        <br class="clear">
+    </div>
+<script type="text/javascript">
+var overa;
+overa = new Date(2016, 05, 15, 08, 00);//倒计时时间（PS：月数要-1，原因你懂得）
+        var localNow = new Date();
+        function clock1(){
+        var local = new Date();
+        var intDiff = overa.getTime() - local.getTime();
+        if(intDiff <= 0){document.getElementById('time1');//显示活动结束 .innerHTML = "活动已经结束了";
+        return false;}
+        var day    = Math.floor(intDiff / (1000 * 60 * 60 * 24));    
+        var hour   = Math.floor(intDiff / (1000 * 60 * 60)) - (day * 24);
+        var minute = Math.floor(intDiff / (1000 * 60)) - (day * 24 * 60) - (hour * 60);
+        var second = Math.floor(intDiff / 1000) - (day * 24 * 60 * 60) - (hour * 60 * 60) - (minute * 60);
+        if (day <= 9) day = '0' + day;
+        if (hour <= 9) hour = '0' + hour;
+        if (minute <= 9) minute = '0' + minute;
+        if (second <= 9) second = '0' + second;
+        document.getElementById('day_01').style.marginTop = (day.toString().substr(0,1)) * (-137) +'px';
+        document.getElementById('day_02').style.marginTop = (day.toString().substr(1,1)) * (-137) +'px';
+        document.getElementById('hour_01').style.marginTop = (hour.toString().substr(0,1)) * (-137) +'px';
+        document.getElementById('hour_02').style.marginTop = (hour.toString().substr(1,1)) * (-137) +'px';
+        document.getElementById('minute_01').style.marginTop = (minute.toString().substr(0,1)) * (-137) +'px';
+        document.getElementById('minute_02').style.marginTop = (minute.toString().substr(1,1)) * (-137) +'px';
+        document.getElementById('second_01').style.marginTop = (second.toString().substr(0,1)) * (-137) +'px';
+        document.getElementById('second_02').style.marginTop = (second.toString().substr(1,1)) * (-137) +'px';
+        setTimeout("clock1()", 1000);
+        }
+        clock1();
+</script>
+</div>
+<footer>
+<p>© 2012  KAKASURE.COM | Dsign BY Snowinmay  <a href="http://weibo.com/sinmay" target="_blank" title="关注我的新浪微博"><img src="img/sinawb.jpg" width="76" height="20" border="0" align="absmiddle"></a></p>
+</footer>
+</body>
+</html>

@@ -1,0 +1,18 @@
+﻿/*
+ * 功能：admin
+ * 时间：3013.06.27
+ * 作者：Prince Yu
+ */
+body{ overflow: hidden;}
+#alogin{ display: none;}
+.atop{ height: 66px; font-size: 14px; color: #d3d5d3; line-height: 66px; background: url(../img/top_data104470.jpg) repeat-x;}
+.atop h1{ display: inline-block; margin: 0 20px;}
+.aleft{ float: left; width: 192px; color: #0F2B2F; font-size: 13px; background: url(../img/left_bottom_bg104470.gif) repeat-y;}
+.aleft .list{ padding: 30px 20px; background: url(../img/left_normal_bg104470.jpg) no-repeat; }
+.aleft .list li{ margin: 0 0 20px 20px; cursor: pointer;}
+.b{ font-weight: bold; font-size: 14px;}
+.aleft .list li.sec{ margin-bottom: 50px;}
+.aright{margin-left: 200px; padding: 15px; color: gray; font-size: 14px; }
+.aright .aintro{margin-bottom: 20px;}
+.aright #tdatein{ font-size: 12px;}
+.aintro-list1,.aintro-list2,.aintro-list3,.aintro-list4,.aintro-list5,.aintro-list6,.aintro-list7,.aintro-list8,.aintro-list9{ display: none;}

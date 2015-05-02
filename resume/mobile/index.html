@@ -1,0 +1,333 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>My-Resume(mobile)</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" 2href="http://snowinmay.net/jqm/jqm.css">
+    <script type="text/javascript" 2src="http://snowinmay.net/jqm/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" 2src="http://snowinmay.net/jqm/jquery.mobile-1.3.2.min.js"></script>
+    <script 2src="http://snowinmay.net/comData/jsonPrince.js"></script>
+    <link rel="stylesheet" href="/6rooms/html/css/jqm.css">
+    <script type="text/javascript" src="/6rooms/html/js/jquery-1.10.2.min.js"></script>
+    <script type="text/javascript" src="/6rooms/html/js/jquery.mobile-1.3.2.min.js"></script>
+    <script src="/6rooms/html/js/jsonPrince.js"></script>
+</head>
+<body>
+    <div class="page">
+        <div class="header">
+            <h1 class="title">我的简历</h1>
+        </div>
+        <div class="content">
+            <ul id="J_List">
+                <li id="info">
+                    <a href="#" class="list-title"><h2>基本信息</h2></a>
+                    <div class="list-info base-info">
+                        <ul>
+                            <li><strong>应聘岗位：</strong><span>前端工程师</span></li>
+                            <li><strong>姓名：</strong><span>俞坚奇</span></li>
+                            <li><strong>专业：</strong><span>计算机科学与技术</span></li>
+                            <li><strong>学历：</strong><span>本科</span></li>
+                            <li><strong>工作年限：</strong><span>三年</span></li>
+                            <li><strong>出生年月：</strong><span>1987年09月</span></li>
+                            <li><strong>联系电话：</strong><span>187-5802-1576</span></li>
+                            <li><strong>邮箱：</strong><span>114623423@qq.com</span></li>
+                            <li><strong>地址：</strong><span>北京市海淀区</span></li>
+                            <li><strong>个人主页：</strong><span>http://snowinmay.net/</span></li>
+                        </ul>
+                    </div>
+                </li>
+                <li id="skills">
+                    <a href="#" class="list-title"><h2>技能</h2></a>
+                    <div class="list-info skills">
+                        <ol>
+                            <li>两年网页设计与前端开发的经验，有多个网页设计与制作的项目经验。</li>
+                            <li>熟练掌握HTML，DIV+CSS，JAVASCRIPT，手写网页代码。</li>
+                            <li>熟悉smarty模板以及ajax，jsonp填写数据。</li>
+                            <li>有php+mysql开发经验。</li>
+                            <li>有网页设计以及seo相关，了解语义化以及网站性能优化。</li>
+                            <li>熟悉web标准，理解mvc，了解http协议，熟悉浏览器的兼容性以及特性。</li>
+                            <li>熟悉GIT，SVN版本控制工具，熟练使用浏览器开发工具，sublime，熟悉bootstrap和jquery，了解MooTools。</li>
+                            <li>熟悉html5，关注前端动态。</li>
+                        </ol>
+                    </div>
+                </li>
+                <li id="project">
+                    <a href="#" class="list-title"><h2>项目经验</h2></a>
+                    <div class="list-info works">
+                        <div class="sub-list-title"><h3 class="left">服饰装扮商城（六间房）</h3></div>
+                        <div class="sub-list-info">
+                            <h4>项目简介：</h4>
+                            <p>是针对六间房新推出的虚拟形象娃娃提供购买装扮的平台，类似与QQ秀。用户可以试穿并赠送服饰给喜欢的主播。为了兼容跨平台，多数数据都是通过js来输出。</p>
+                            <h4>本人职责：</h4>
+                            <p>切图，确保各个浏览器的兼容性。与各方一起讨论产品的逻辑，并根据各方给出的文档来写js。数据展示，ajax开发。信息传递，与php和flash交互。</p>
+                            <h4>项目心得：</h4>
+                            <dl>
+                                <dd>熟悉swfObject，正则表达式，mootools框架的使用。</dd>
+                                <dd>开始清晰如何把业务逻辑转化成javascript实现。</dd>
+                                <dd>开始尝试javascript面向对象编程，试着抽象一些常用的方法。</dd>
+                                <dd>更加深刻理解web标准，理解结构，样式，逻辑的关系。</dd>
+                            </dl>
+                            <h4>不足：</h4>
+                            <p>切图，确保各个浏览器的兼容性。与各方一起讨论产品的逻辑，并根据各方给出的文档来写js。数据展示，ajax开发。信息传递，与php和flash交互。</p>
+                        </div>
+                    </div>
+                    <div class="list-info works">
+                        <div class="sub-list-title"><h3 class="left">今夜故事会（六间房）</h3></div>
+                        <div class="sub-list-info">
+                            <h4>项目简介：</h4>
+                            <p>六间房的有声小说频道。实时更新在线人数和直播状态，用户可以根据人气和开播时间筛选。</p>
+                            <h4>本人职责：</h4>
+                            <p>负责切图，用smarty输出后台数据，用ajax实时更新直播数据。与php规定数据格式，与产品讨论网页交互的一些细节。</p>
+                        </div>
+                    </div>
+                    <div class="list-info works">
+                        <div class="sub-list-title"><h3 class="left">管理后台模块制作和规范书写（嘀嗒团）</h3></div>
+                        <div class="sub-list-info">
+                            <h4>项目简介：</h4>
+                            <p>后台中很多模块重用性很高，参照bootstrap，针对这些模块写了固定的样式。</p>
+                            <h4>本人职责：</h4>
+                            <dl>
+                                <dd>书写各个模块css文件，确保各浏览器的兼容性。</dd>
+                                <dd>确保各个模块有最强的通用性，后台只要有用到这个模块，只要套用这个样式就可以。</dd>
+                                <dd>规范文档的书写，确保以后的工程师只要看到该文档就知道怎么使用标签和样式。</dd>
+                            </dl>
+                        </div>
+                    </div>
+                    <div class="list-info works">
+                        <div class="sub-list-title"><h3 class="left">个人网站及小练习</h3></div>
+                        <div class="sub-list-info">
+                            <h4>项目简介：</h4>
+                            <p>归档文章，记录自己生活，前端之路。也是测试各种技术的好地方。</p>
+                            <h4>本人职责：</h4>
+                            <dl>
+                                <dd>用php做后台录入数据，smarty来输出数据。</dd>
+                                <dd>用到响应式布局，不同浏览器，设备可能会有所不同。</dd>
+                                <dd>用图片，媒体文件预加载来提高用户体验和访问速度。</dd>
+                                <dd>用到html5的一些元素和css3来提高用户体验。</dd>
+                            </dl>
+                            <h4>小练习：</h4>
+                            <dl>
+                                <dd>基于百度地图API的个人足迹页面。</dd>
+                                <dd>基于第三方网站json数据的查询小工具。</dd>
+                                <dd>基于html5的音乐播放器。</dd>
+                            </dl>
+                        </div>
+                    </div>
+                </li>
+                <li id="experience">
+                    <a href="#" class="list-title"><h2>经历</h2></a>
+                    <div class="list-info experience">
+                        <div class="sub-list-title"><h3 class="left">六间房（北京）</h3><span class="right">2013/04 - 2014/03</span></div>
+                        <div class="sub-list-info">切图，确保各个浏览器的兼容性。js开发，用smarty或者ajax来处理并展示前端数据。</div>
+                    </div>
+                    <div class="list-info experience">
+                        <div class="sub-list-title"><h3 class="left">嘀嗒团（北京）</h3><span class="right">2012/11 - 2013/03</span></div>                        
+                        <div class="sub-list-info">事页面构建工作，切图以及jquery书写。负责网站前端页面修改，专题制作，商户后台和管理后台页面规范书写以及优化。</div>
+                    </div>
+                    <div class="list-info experience">
+                        <div class="sub-list-title"><h3 class="left">操刀信息（杭州）</h3><span class="right">2011/02 - 2012/10</span></div>                        
+                        <div class="sub-list-info">网页设计，网页制作，seo及相关工作。</div>
+                    </div>
+                    <div class="list-info experience">
+                        <div class="sub-list-title"><h3 class="left">湖州大学生工作（实习）</h3><span class="right">2010/03 - 2011/02</span></div>                    
+                        <div class="sub-list-info">从事.NET网站开发，网页设计与制作，网站后期推广与维护。</div>
+                    </div>
+                    <div class="list-info experience">
+                        <div class="sub-list-title"><h3 class="left">湖州师范学院（大学）</h3><span class="right">2007/09 - 2011/06</span></div>                      
+                        <div class="sub-list-info">主修课程：c语言，c++，汇编语言，数据结构，算法设计，操作系统，计算机组成原理，软件工程，计算机网络，大学英语，高等数学</div>
+                    </div>
+                </li>
+                <li id="evaluation">
+                    <a href="#" class="list-title "><h2>自我评价</h2></a>
+                    <div class="list-info evaluation">
+                        专业基础扎实。爱学习，爱编程。待人真诚，乐于助人。做事认真踏实，有责任心。web开发各种技术学习中。希望在工作中，实现自己价值。
+                    </div>
+                </li>
+                <li id="honour">
+                    <a href="#" class="list-title"><h2>证书认证</h2></a>
+                    <div class="list-info honor">
+                        <ul>
+                            <li>英语 CET-4</li>
+                            <li>全国计算机软件技术资格与水平考试 中级</li>
+                            <li>全国计算机等级 四级</li>
+                        </ul>
+                    </div>
+                </li>
+            </ul>
+        </div>
+        <div class="footer">
+            <p class="download">下载简历</p>            
+            <p class="copyright">Copyright @2013 snowinmay</p>            
+        </div>
+        <div class="footer">
+            <p class="download"><a href="/Resume_Yujianqi_F2E.doc" target="_blank">下载简历</a></p>      
+            <p class="copyright">Copyright @2013 snowinmay</p>            
+        </div>
+    </div>
+    <script type="text/javascript" src="/6rooms/html/js/jquery.js"></script>
+    <script>
+
+        var PRINCE = {
+            Resume : Resume,
+            init : function (){
+
+               $('#J_List').find('.list-info').css('display', 'none');
+               this.init = 1;
+               this.showList();
+
+               //标题
+                var lists = $('#J_List>li');
+                for (var i = 0; i < lists.length; i++) {
+                    var myId = $(lists[i]).attr('id');
+                    $(lists[i]).find('h2').text(PRINCE.Resume.item[myId].name);
+                    
+                };
+
+                //个人信息
+                var infoList = $('.base-info ul');
+                infoList.html("");
+                $.each(PRINCE.Resume.item.info.content,function(index, el) {
+                   
+                   switch (index){
+                        case "enname":
+                        index = "英文名";                        
+                        break;
+                        case "cnname":
+                        index = "中文名";
+                        break;
+                        case "age":
+                        index = "年龄";
+                        break;
+                        case "city":
+                        index = "城市";
+                        break;
+                        case "email":
+                        index = "邮箱";
+                        break;
+                        case "tel":
+                        index = "手机";
+                        break;
+                        case "QQ":
+                        index = "QQ";
+                        break;
+                        case "url":
+                        index = "个人主页";
+                        break;
+                        case "job":
+                        index = "职位";
+                        break;
+                        case "marital":
+                        index = "婚姻状况";
+                        break;
+                        case "birthday":
+                        index = "生日";
+                        break;
+                        case "years":
+                        index = "工作年限";
+                        break;
+                        case "education":
+                        index = "教育信息";
+                        break;
+                   }
+                    var list = "<li><strong>"+index+"：</strong><span>"+el+"</span></li>";
+                    $(list).appendTo(infoList);
+                });
+
+                //专业技能
+                var skillsList = $('.skills ol');
+                skillsList.html("");
+                $.each(PRINCE.Resume.item.skills.content.arr, function(index, val) {
+                    var list = "<li>"+val+"</li>";
+                    $(list).appendTo(skillsList);
+                });
+
+                //证书认证
+                var honorList = $('.honor ul');
+                honorList.html("");
+                $.each(PRINCE.Resume.item.honour.content.arr, function(index, val) {
+                    if (typeof val != "object") {
+                        var list = "<li>"+val+"</li>";
+                        $(list).appendTo(honorList);
+                    }                    
+                });
+
+                //自我评价
+                $('.evaluation').html(PRINCE.Resume.item.evaluation.content.text);
+
+                //经历experience
+                var exper = $('#experience');
+                var experCon = PRINCE.Resume.item.experience.content;
+                exper.find('.experience').remove();
+                $.each(experCon, function(index, val) {
+
+                    if (index == "work") {
+                        var _val = val;
+                        $.each(_val, function(index, val) {
+                             var list = '<div class="list-info experience"><div class="sub-list-title"><h3 class="left">'+val.name+'</h3><span class="right">'+val.start+' - '+val.end+'</span></div><div class="sub-list-info">'+val.course+'</div></div>';
+                            $(list).appendTo(exper);
+                        });
+
+                    }else{
+                        var list = '<div class="list-info experience"><div class="sub-list-title"><h3 class="left">'+val.name+'</h3><span class="right">'+val.start+' - '+val.end+'</span></div><div class="sub-list-info">'+val.course+'</div></div>';
+                        $(list).appendTo(exper);
+                    };
+                });
+
+                //项目经验
+                var project = $('#project');
+                var projectCon = PRINCE.Resume.item.project.content.arr;
+                project.find('.works').remove();
+                //console.log(projectCon);
+                $.each(projectCon, function(index, val) {
+                    var _val = val;
+                    if (val.name == "个人练习") {
+                        var list = '<div class="list-info works"><div class="sub-list-title"><h3 class="left">'+val.name+'</h3></div><div class="sub-list-info"><h4>个人练习：</h4><dl></dl></div></div>';
+                        var myList = $(list).appendTo(project);
+                        PRINCE.showSubList(myList);
+                        $.each(val.content, function(index, val) {
+                            var _list = "<dd>"+val+"</dd>";
+                            var _myList = $(_list).appendTo(myList.find('dl'));
+                        });
+                    }else{                        
+                        var list = '<div class="list-info works"><div class="sub-list-title"><h3 class="left">'+val.name+'</h3></div><div class="sub-list-info"><h4>项目简介：</h4><p>'+val.summary+'</p><h4>本人职责：</h4><dl class="myDuty"></dl><h4>项目心得：</h4><dl class="myLearned"></dl><h4>不足：</h4><dl class="myPoor"></dl></div></div>';
+                        var myList = $(list).appendTo(project);
+                        PRINCE.showSubList(myList);
+                        $.each(val.duty, function(index, val) {
+                            var _list = "<dd>"+val+"</dd>";
+                            var _myList = $(_list).appendTo(myList.find('dl.myDuty'));
+                        });
+                        $.each(val.learned, function(index, val) {
+                            var _list = "<dd>"+val+"</dd>";
+                            var _myList = $(_list).appendTo(myList.find('dl.myLearned'));
+                        });
+                        $.each(val.insufficient, function(index, val) {
+                            var _list = "<dd>"+val+"</dd>";
+                            var _myList = $(_list).appendTo(myList.find('dl.myPoor'));
+                        });
+                    };                    
+                });
+            },
+            showList : function (){
+
+                if (!this.init) return;
+                $('#J_List').find('.list-title').bind('click',function(){
+                    $(this).parents('li').siblings().find('.list-info').css('display', 'none');
+                    $(this).siblings().toggle();               
+                });
+                //this.showSubList();
+            },
+            showSubList : function (list){
+                var myList = $(list).find('.sub-list-title') || $('#J_List').find('.works .sub-list-title');
+                myList.bind('click', function(event) {
+                    $(this).parents('.works').siblings().find('.sub-list-info').css('display', 'none');
+                    $(this).siblings().toggle();     
+                });
+            }
+        }
+        $(function(){
+            PRINCE.init();
+        })        
+    </script>
+</body>
+</html>

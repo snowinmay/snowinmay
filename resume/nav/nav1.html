@@ -1,0 +1,55 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+ <head>
+ <meta http-equiv="Content-type" content="text/html; charset=gb2312" />
+  <title>【6月13日】第一个导航作品|俞坚奇-前端工程师</title>
+  <meta name="Generator" content="EditPlus">
+  <meta name="Author" content="">
+  <meta name="Keywords" content="俞坚奇,前端工程师，网站导航，javascript，css，优秀作品">
+  <meta name="Description" content="这是前端工程师-俞坚奇导航系列的第一个优秀作品。使用css控制导航样式。">
+  <style type="text/css">
+  body,ul,li,a{margin:0;padding:0;}
+  body{font:14px "宋体"}/*定义了文字大小，否则文字会随网页放大而变大（IE下）*/
+	ul{
+		width:710px;
+		height:30px;
+		margin:20px auto;/*水平居中*/
+		background-color:red;
+		list-style-type:none;/*去掉li前面的小圆点。list-style属性是定义ul及li等，是控制ul还是li要看情况*/
+	}
+	li{
+		float:left;/*左浮动，水平导航*/
+		width:80px;
+		height:30px;
+		line-height:30px;/*height和line-height设置成相同，使里面的文字垂直居中*/
+		text-align:center;/*文字水平居中*/
+		margin-right:10px;
+		background:green;
+	}
+	li.end{
+		margin-right:0px;/*因为给li加了右外边距，去掉最后一个li的右外边距*/
+	}
+	a{
+		text-decoration:none;/*清除a标签样式*/
+		color:#ccc;
+	}
+	a:hover{
+		background:blue;
+		display:block;/默认a是内联元素，讲a块状化/
+	}
+  </style>
+ </head>
+ <body>
+		<ul>
+			<li><a href="#">首页</a></li>
+			<li><a href="#">生活点滴</a></li>
+			<li><a href="#">心情工作</a></li>
+			<li><a href="#">前端分享</a></li>
+			<li><a href="#">岁月轻尘</a></li>
+			<li><a href="#">关于博主</a></li>
+			<li><a href="#">左邻右舍</a></li>
+			<li class="end"><a href="#">雁过留声</li>
+		</ul>
+
+</body>
+</html>
