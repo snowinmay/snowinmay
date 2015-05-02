@@ -1,4 +1,5 @@
 <?php
+    date_default_timezone_set("PRC"); 
     //创建smarty对象
     require '../source/core/db/db.conn.smarty.php';  
     require_once '../source/core/libs/Smarty.class.php';    
