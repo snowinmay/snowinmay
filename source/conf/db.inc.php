@@ -16,7 +16,7 @@ define('DB_DATA', 'snowinmay');
 ///数据库登录帐号
 define('DB_USER', 'root');
 ///数据库登录密码
-define('DB_PASS', 'Py8sWSXLacwNFQcy');
+define('DB_PASS', '123456');
 ///数据表前缀
 define('DB_PREFIX', 'oecmspre_');
 ///数据库持久连接 0=关闭, 1=打开

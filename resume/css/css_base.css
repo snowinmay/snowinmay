@@ -1,0 +1,22 @@
+/*
+ * 功能：清除浮动，
+ * 时间：3013.06.27
+ * 作者：Prince Yu
+ */
+
+ /* reset元素 */
+ body,ul,h1,h2,h3,h4,h5,h6{ margin: 0; padding: 0; }
+ li{ list-style: none;}
+ h1,h2{ font-size: 18px;}
+ h3,h4{ font-size: 14px;}
+ h5,h6{ font-size: 12px;}
+ /* 清楚浮动 */
+.clearfix:after{
+    content: "";
+    display: block;
+    height: 0;
+    visibility: hidden;
+    clear: both;
+    font-size: 0;
+ }
+.clearfix{*zoom: 1;}

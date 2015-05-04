@@ -1,4 +1,5 @@
 <?php
+    date_default_timezone_set("PRC"); 
     //创建smarty对象
     require '../source/core/db/db.conn.smarty.php';  
     require_once '../source/core/libs/Smarty.class.php';    
@@ -27,7 +28,7 @@
                 // echo '<br />';
                 //  print_r($works);
     //exit();
-
+    //$smarty->assign("Name","Fred");
     $smarty -> assign("categories",$categories);
     $smarty -> assign("works",$works);
     $smarty -> assign("time_diff",$time_diff);

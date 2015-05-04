@@ -1,0 +1,5 @@
+#ignore _compiled
+tpl/_compiled/
+
+#ignore cache/
+data/cache/
