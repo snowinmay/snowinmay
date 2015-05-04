@@ -3,3 +3,6 @@ tpl/_compiled/
 
 #ignore cache/
 data/cache/
+
+#ignore database info
+source.core/db/
