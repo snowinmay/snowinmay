@@ -28,7 +28,11 @@
                 // echo '<br />';
                 //  print_r($works);
     //exit();
+<<<<<<< HEAD
     //$smarty->assign("Name","Fred");
+=======
+    $smarty->assign("Name","Fred");
+>>>>>>> d6efb36ea8e9727ac20cca2c4bfdf36b4dbd9f9e
     $smarty -> assign("categories",$categories);
     $smarty -> assign("works",$works);
     $smarty -> assign("time_diff",$time_diff);
