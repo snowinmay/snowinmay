@@ -63,4 +63,18 @@
     </div>
 </footer>
 </body>
+<script src="/snowinmay/media/jquery.min.js"></script>
+<script>
+  $(function(){
+    $.ajax({
+      url: 'index_json.php',
+      type: 'get',
+      dataType: 'json',
+      success : function(obj){
+        console.log(obj);
+      }
+    })
+    
+  })
+</script>
 </html>
