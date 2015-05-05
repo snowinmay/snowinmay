@@ -5,4 +5,5 @@ tpl/_compiled/
 data/cache/
 
 #ignore database info
-source.core/db/
+source/core/db/
+source/conf/
