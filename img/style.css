@@ -1,0 +1,278 @@
+body{ background: #e6e6e6; color:#b6b6b6; font: 16px Arial,Helvetica,sans-serif;}
+body,ul,li,h6{ padding: 0; margin: 0;}
+ul li{ 	list-style: none;}
+@media screen and (max-width:700px) {
+	.showme,#bdshare{display: none;}
+}
+@media screen and (max-width:400px) {
+.con{
+	margin: 0 auto;
+	}
+.prince{
+	width: 250px;
+	height: 250px;
+	margin: 10px auto;
+	border-radius: 100%;
+	border: 10px solid #fff;
+	background: url("1.png");
+	opacity: 0.6;
+	box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	}
+	.nav{ 
+		margin: 30px auto 10px; 
+		text-align: center;
+	}
+	.nav ul{ margin: 0 auto; }
+	.nav ul li{		
+		display: inline-block;
+		margin: 0 10px; 
+	}
+}
+@media screen and (min-width:401px) {
+.con{
+		margin: 0 auto;
+		width: 360px;			
+	}
+	.prince{
+		width: 200px;
+		height: 200px;
+		margin: 10px auto;
+		border-radius: 100%;
+		border: 10px solid #fff;
+		background: url("1.png");
+		opacity: 0.6;
+		display: inline-block;
+		box-shadow: 0 2px 6px rgba(100, 100, 100, 0.3);
+	}
+	.nav{ 
+		margin: 20px auto; 
+		text-align: right;
+		vertical-align: top;
+		display: inline-block;
+	}
+	.nav ul{ margin: 0 auto; }
+	.nav ul li{
+		margin: 0 30px; 
+		padding: 15px 0 20px;
+	}
+}
+ul li a,h6 a{ text-decoration: none; color:#b6b6b6; }
+ul li a:hover,h6 a:hover{ text-decoration: none; color:#9c9c9c;}
+
+/* by prince yu, 2013.05.09 */
+/* footer */
+#footer{
+	position: absolute;
+	bottom: 0;
+	right: 0;
+	border-top: 1px dotted #ccc;
+	padding: 10px;
+	font-size: 12px;
+}
+#footer a.version{
+	font-size: 16px;
+	background: #DFF0D8;
+	color: #468847;
+	border-bottom: 1px dotted #ccc;
+	text-decoration: none;
+}
+
+#footer a.alimama img{
+	width: 220px;
+	height: 90px;
+	position: absolute;
+	top: -91px;
+	right: 0;
+	opacity: .6;
+}
+
+#about .showme { background: #DFF0D8;	color: #468847;}
+
+/* 关于我，导航 */
+#about{
+	left: -92px; 
+	top: 180px; 
+	position: fixed;
+	_position:absolute;
+	border: 1px solid #ccc;
+	font-size: 14px;
+	width:90px;
+	z-index: 102;
+	background: #e6e6e6;
+}
+#about h6{
+	background: #f6f6f6;
+	padding: 5px 10px;
+	font-size: 14px;
+}
+#about ul{
+	padding: 0 15px;
+}
+#about ul li{
+	margin: 10px 0 8px 0;
+	font-size: 12px;
+	border-bottom: 1px dotted #ccc;
+	padding-bottom: 2px;
+}
+#about .showme{
+	position: absolute;
+	padding: 15px 5px;
+	top: 30px;
+	left: 90px;
+	width: 20px;
+	border: 1px solid #ccc;
+	text-align: center;
+	border-top-right-radius: 5px; 
+	border-bottom-right-radius: 5px; 
+}
+/* 这是一个层 */
+#info{
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #000;
+	opacity: 0.5;
+	z-index: 100;
+}
+/*用于定位开关*/
+#detail{
+	overflow: scroll;
+	min-width: 700px;
+}
+/* 关于我,详情 */
+#detail,#det_pos{
+	position: fixed;
+	top: 10%;
+	left: 10%;
+	width: 80%;
+	height: 80%;
+	background: #fff;
+	border: 1px double #666;
+	border-radius: 5px;
+	z-index: 101;	
+	padding: 20px 30px;
+}
+
+/* 开关 */
+.show_detail{
+	position: absolute;
+	left: -45px;
+	top: 50px;
+	background: #F2DEDE;
+	border: 1px solid #B94A48;
+	font-size: 32px;
+	padding: 5px 15px;
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px;
+	cursor: pointer;
+	color: #ccc;
+}
+.show_detail:hover{
+	color: #999;
+}
+.hid_detail{ display: none; }
+/* 看过的书 */
+.book li{
+	padding: 10px;
+	background: #DFF0D8;
+	margin-bottom: 20px;
+	margin-right: 20px;
+	float: left;
+	border-radius: 5px;
+	color: #468847;
+	font-size: 12px;
+	max-width: 220px;
+}
+.store,.read,.reading{
+	overflow: hidden;
+}
+.book h6{
+	font-size: 16px;
+	border-bottom: 2px solid #ccc;
+	margin: 10px 0;
+	height: 18px;
+	line-height: 18px;
+}
+/* 颜色库 */
+.book li.suc,.suc{
+	background: #DFF0D8;
+	color: #468847;
+}
+.book li.warning,.warning{
+	color: #c09853;
+	background: #fcf8e3;
+}
+.book li.alert,.alert{
+	color: #b94a48;
+	background-color: #f2dede;
+}
+.book li.alert-info,.alert-info{
+	color: #3a87ad;
+	background-color: #d9edf7;
+}
+
+/* 听过的歌 */
+#music audio{ width: 250px; height: 30px;}
+#music .loved li{ max-width: none;}
+h1{ border-bottom: 1px dotted #ccc;	padding-bottom: 2px; display: inline-block;}
+
+/* 熟悉的网络 */
+.net div,.quotations div{
+	overflow: hidden;
+	width: 500px;
+	float: left;
+}
+.net li,.quotations li{
+	float: none;
+	width: 250px;
+}
+#net a,#quotations a{ border-bottom: 1px dotted #ccc; font-size: 16px; }
+
+/* 瀑布流 */
+#place .col,#music .col,#tools .col{ 
+	overflow: hidden; 
+	width: 300px;
+	float: left;
+}
+#way h6{ position: relative; }
+#way h6 ul.way_nav{ position: absolute; right:35px; top: -21px;}
+#way h6 ul.way_nav li{ 
+	border-bottom-left-radius: 0; 
+	border-bottom-right-radius: 0;
+	border: 1px solid #ccc;
+	border-bottom: none;
+	z-index: 103;
+	font-size: 14px;
+}
+#way .store{ overflow: visible;}
+#way h6 ul.way_nav li.selected{ 
+	position: relative;
+	top: 2px;
+	border-bottom: none;
+	background: #fff;
+	color: #ccc;
+}
+#way li.selected a:hover{
+	color:#ccc;
+	cursor: default;
+}
+
+/* 我的前端路 20130511 by prince*/
+.front_way,.front_think,.tag,.question{
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	padding: 0 20px;
+	position: relative;
+}
+.arrow{
+	position: absolute;
+	background: url(all_iconbtn.png) no-repeat;
+	top: 50px;
+	right:-11px;
+	width: 11px;
+	height: 16px;
+}
+
+
